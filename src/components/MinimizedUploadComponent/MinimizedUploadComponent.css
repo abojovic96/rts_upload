@@ -1,0 +1,36 @@
+.minimized-upload {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background-color: #4caf50;
+    transition: width 0.3s ease;
+  }
+  
+  .minimized-upload div {
+    margin-top: 5px;
+  }
+  
+  .minimized-upload button {
+    padding: 5px 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .minimized-upload button:hover {
+    background-color: #ff4500;
+  }
